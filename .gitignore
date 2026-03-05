@@ -15,5 +15,5 @@ Thumbs.db
 # Logs
 *.log
 
-# If you DON'T want to upload 2GB model
+# ML models (optional)
 saved_models/random_forest_tuned_best.pkl
