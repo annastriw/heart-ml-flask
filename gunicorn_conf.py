@@ -1,6 +1,6 @@
 import os
 
-bind = os.getenv("BIND", "0.0.0.0:5000")
+bind = os.getenv("BIND", "0.0.0.0:8000")
 
 # 2 vCPU => 2 workers
 workers = int(os.getenv("WEB_CONCURRENCY", "2"))
